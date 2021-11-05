@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.card {
+    text-align: center;
+    min-width: 350px;
+    min-height: 400px;
+    background-color: rgba(255,255,255,.1);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 15px rgba(0,0,0,.5);
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid rgb(94, 85, 85);
+    color: #ffffff;
+}
+
+input{
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.card h3{
+    padding: 20px ;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.input-box{
+    margin-top: 20px;
+    min-width: 100%;
+}
+
+.input-box input{
+    width: 100%;
+    padding: 5px 0;
+    border-bottom: 1px solid #c2d3f0;
+    
+}
+
+.btn{
+    margin-top: 20px;
+    width: 100%;
+
+}
+
+.btn input{
+    width: 100%;
+    padding: 10px ;
+    background-image: linear-gradient(45deg, #045b8d, #003ad3);
+    color: white;
+    cursor:pointer;
+    transition: 1s;
+
+}
+
+.btn input:hover{
+    background-image: linear-gradient(45deg, #003ad3,#045b8d);
+}
+
+.card .text {
+    padding-top: 20px;
+    font-size: small;
+}
+
+.social-icons{
+    margin-top: 30px;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-around;
+    padding:0 20px;
+    color: rgb(124, 122, 118);
+}
+
+.social-icons .fab{
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.social-icons .fab:hover{
+    color:royalblue;
+
+}
